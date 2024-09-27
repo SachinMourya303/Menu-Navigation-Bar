@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(landscape3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main{
+    height: 784px;
+    width: 70px;
+    backdrop-filter:blur(50px);
+    position: relative;
+    overflow:hidden;
+}
+
+#profile{
+    background-color:lightblue;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#right{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color:lightblue;
+    font-size:20px;
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+    border-color:transparent;
+    z-index:9;
+}
+#left{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size:20px;
+    position: absolute;
+    cursor: pointer;
+    outline: none;
+    border-color: transparent;
+    opacity: 0;
+    margin-left: -29px;
+}
+#btn{
+    position: relative;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+#catogries{
+    margin-top: 150px;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+#movies{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+#setting{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 300px;
+}
+#sport{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 15px;
+    cursor: pointer;
+    z-index:9;
+    height: 50px;
+    width: 300px;
+}
+#favourite{
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 25px;
+    cursor: pointer;
+    z-index:9;
+    height: 50px;
+    width: 300px;
+}
+#catogries:hover{
+    background-color: skyblue;
+}
+    #movies:hover{
+        background-color: skyblue;
+    }
+    #sport:hover{
+        background-color: skyblue;
+    }
+    #favourite:hover{
+        background-color: skyblue;
+    }
+    #setting:hover{
+    background-color: skyblue;
+}
+p{
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: -25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+    opacity: 0;
+}
